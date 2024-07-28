@@ -52,35 +52,79 @@ function Contact() {
     setMessage('');
   };
 
-  return (
-    <div className="container text-center">
-      <h1>Send a message!</h1>
+//   return (
+//     <div className="container text-center">
+//       <h1>Send a message!</h1>
+//       <form className="form" onSubmit={handleFormSubmit}>
+//       <input
+//           value={senderName}
+//           name="senderName"
+//           onChange={handleInputChange}
+//           type="text"
+//           placeholder="Name"
+//         />
+//         <input
+//           value={email}
+//           name="email"
+//           onChange={handleInputChange}
+//           type="email"
+//           placeholder="Email"
+//         />
+//         <input
+//           value={message}
+//           name="message"
+//           onChange={handleInputChange}
+//           type="text"
+//           placeholder="Your message here"
+//         />
+//         <button type="submit">Send</button>
+//       </form>
+//       {errorMessage && (
+//         <div>
+//           <p className="error-text">{errorMessage}</p>
+//         </div>
+//       )}
+//     </div>
+//   );
+
+return (
+    <div className="container text-center mt-5">
+      <h1 className="mb-4">Send a Message!</h1>
       <form className="form" onSubmit={handleFormSubmit}>
-      <input
-          value={senderName}
-          name="senderName"
-          onChange={handleInputChange}
-          type="text"
-          placeholder="Name"
-        />
-        <input
-          value={email}
-          name="email"
-          onChange={handleInputChange}
-          type="email"
-          placeholder="Email"
-        />
-        <input
-          value={message}
-          name="message"
-          onChange={handleInputChange}
-          type="text"
-          placeholder="Your message here"
-        />
-        <button type="submit">Send</button>
+        <div className="form-group mb-3">
+          <input
+            value={senderName}
+            name="senderName"
+            onChange={handleInputChange}
+            type="text"
+            className="form-control"
+            placeholder="Name"
+          />
+        </div>
+        <div className="form-group mb-3">
+          <input
+            value={email}
+            name="email"
+            onChange={handleInputChange}
+            type="email"
+            className="form-control"
+            placeholder="Email"
+          />
+        </div>
+        <div className="form-group mb-3">
+          <textarea
+            value={message}
+            name="message"
+            onChange={handleInputChange}
+            className="form-control"
+            rows="4"
+            placeholder="Your message here"
+          />
+        </div>
+        <button type="submit" className="btn btn-primary">Send</button>
       </form>
       {errorMessage && (
-        <div>
+        <div className="mt-3">
           <p className="error-text">{errorMessage}</p>
         </div>
       )}
