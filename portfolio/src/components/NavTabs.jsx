@@ -1,6 +1,8 @@
 
 function NavTabs({ currentPage, handlePageChange }) {
     return (
+        <>
+        <h1>Hi, I'm Alexandra Larrabee</h1>
       <ul className="nav nav-tabs">
         <li className="nav-item">
           <a
@@ -44,6 +46,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           </a>
         </li>
       </ul>
+      </>
     );
   }
   
