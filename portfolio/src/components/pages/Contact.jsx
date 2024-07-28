@@ -2,7 +2,7 @@ import { useState } from 'react';
 // import './style.css';
 
 // helper function that will check if the email is valid
-// import { validateEmail } from '../../utils/helpers';
+import { validateEmail } from '../../utils/helpers';
 
 function Contact() {
   // state variables for the fields in the form and setting their initial values to an empty string
@@ -32,12 +32,12 @@ function Contact() {
     e.preventDefault();
 
     // First we check to see if the email is not valid or if the userName is empty. If so we set an error message to be displayed on the page.
-    // if (!validateEmail(email) || !userName) {
-    //   setErrorMessage('Email or username is invalid');
-    //   // We want to exit out of this code block if something is wrong so that the user can correct it
-    //   return;
-    //   // Then we check to see if the password is not valid. If so, we set an error message regarding the password.
-    // }
+    if (!validateEmail(email)) {
+      setErrorMessage('Email is invalid');
+      // We want to exit out of this code block if something is wrong so that the user can correct it
+      return;
+      // Then we check to see if the password is not valid. If so, we set an error message regarding the password.
+    }
     // if (!checkPassword(password)) {
     //   setErrorMessage(
     //     `Choose a more secure password for the account: ${userName}`
@@ -47,7 +47,7 @@ function Contact() {
     // alert(`Hello ${userName}`);
 
     // clears out the input after a successful submission
-    setSendersName('');
+    setSenderName('');
     setEmail('');
     setMessage('');
   };
