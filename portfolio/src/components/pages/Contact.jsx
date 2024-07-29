@@ -2,16 +2,25 @@ import { useState } from 'react';
 
 import { validateEmail } from '../../utils/helpers';
 
+const styles = {
+    errorMsg: {
+        color: 'red',
+    },
+};
+
+
 function Contact() {
   const [senderName, setSenderName] = useState('');
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
+
   const [errorMessage, setErrorMessage] = useState('');
 
   const handleInputChange = (e) => {
     const { target } = e;
     const inputType = target.name;
     const inputValue = target.value;
+    setErrorMessage('');
 
     if (inputType === 'senderName') {
       setSenderName(inputValue);
@@ -30,6 +39,7 @@ function Contact() {
       return;
     }
 
+    setDisplayForm(false)
     setSenderName('');
     setEmail('');
     setMessage('');
@@ -74,7 +84,7 @@ return (
       </form>
       {errorMessage && (
         <div className="mt-3">
-          <p className="error-text">{errorMessage}</p>
+          <p className="error-text" style={styles.errorMsg}>{errorMessage}</p>
         </div>
       )}
     </div>
