@@ -14,7 +14,7 @@ const containerStyle = {
     justifyContent: 'space-around', // Distributes space evenly around the images
     alignItems: 'center', // Aligns items vertically in the center
     flexWrap: 'wrap', // Allows images to wrap onto the next line if needed
-    marginBottom: '60px'
+    marginBottom: '100px'
 };
 
 // Inline style object for images
