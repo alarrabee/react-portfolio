@@ -1,14 +1,11 @@
+import profilePic from '../../assets/profpic.png'
 export default function About() {
     return (
       <div>
-        <h1>About Page</h1>
+        <h1>About Me</h1>
+        <img src={profilePic} alt="Description of the image" className="about-image" height="200"/>
         <p>
-          Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-          Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-          mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-          lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-          imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-          in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
+        Welcome to my portfolio. I am currently enrolled in the U of M Coding Bootcamp. A 24-week course that will give me the professional skills needed to become a full stack web developer. I have a background in chemistry and am currently in the pharmaceutical and medical device industries. I help build innovative and life saving technology.
         </p>
       </div>
     );

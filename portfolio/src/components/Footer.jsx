@@ -32,7 +32,7 @@ const styles = {
       backgroundColor: '#343a40', // Dark background color
       color: '#ffffff',    // White text color
       textAlign: 'center', // Center align text
-      padding: '1rem',     // Add some padding
+      padding: '5px',     // Add some padding
     },
   };
   
@@ -42,17 +42,17 @@ const styles = {
         <div className="container">
           <div className="row">
             <div className="col-md-12">
-              <p>&copy; 2024 Alexandra Larrabee. All Rights Reserved.</p>
-              <a href="https://github.com/your-github-profile" className="text-white mx-2">
+              <a href="https://github.com/your-github-profile" className="text-white mx-5">
                 <i className="fab fa-github"></i> GitHub
               </a>
-              <a href="https://www.linkedin.com/in/your-linkedin-profile" className="text-white mx-2">
+              <a href="https://www.linkedin.com/in/your-linkedin-profile" className="text-white mx-5">
                 <i className="fab fa-linkedin"></i> LinkedIn
               </a>
-              <a href="mailto:your-email@example.com" className="text-white mx-2">
+              <a href="mailto:your-email@example.com" className="text-white mx-5">
                 <i className="fas fa-envelope"></i> Email
               </a>
             </div>
+            <p>&copy; 2024 Alexandra Larrabee. All Rights Reserved.</p>
           </div>
         </div>
       </footer>

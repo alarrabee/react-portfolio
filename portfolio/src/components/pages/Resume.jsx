@@ -1,20 +1,134 @@
+
+
 export default function Resume() {
+
+
+const titleStyle = {
+    marginBottom: '30px',
+    marginTop: '30px',
+}
+
+// Inline style object for the image container
+const containerStyle = {
+    display: 'flex',
+    justifyContent: 'space-around', // Distributes space evenly around the images
+    alignItems: 'center', // Aligns items vertically in the center
+    flexWrap: 'wrap', // Allows images to wrap onto the next line if needed
+    marginBottom: '60px'
+};
+
+// Inline style object for images
+const imageStyle = {
+    height: '100px', // Fixed height for images
+    width: 'auto', // Maintain aspect ratio
+    margin: '20px',
+};
+
+
     return (
-      <div>
-        <h1>Resume Page</h1>
-        <p>
-          Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
-          molestie urna. Aliquam semper ultrices varius. Aliquam faucibus sit amet
-          magna a ultrices. Aenean pellentesque placerat lacus imperdiet
-          efficitur. In felis nisl, luctus non ante euismod, tincidunt bibendum
-          mi. In a molestie nisl, eu sodales diam. Nam tincidunt lacus quis magna
-          posuere, eget tristique dui dapibus. Maecenas fermentum elementum
-          faucibus. Quisque nec metus vestibulum, egestas massa eu, sollicitudin
-          ipsum. Nulla facilisi. Sed ut erat ligula. Nam tincidunt nunc in nibh
-          dictum ullamcorper. Class aptent taciti sociosqu ad litora torquent per
-          conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at
-          rhoncus. Etiam vel condimentum magna, quis tempor nulla.
-        </p>
+      <div style={containerStyle}>
+        <div style={titleStyle}>
+        <h1>Resume</h1>
+        <a
+            href="'../../../public/alarrabeeResume2024.pdf"
+            download="alarrabee-resume.pdf"
+            className="btn btn-primary"
+            >Download PDF
+        </a>
+        </div>
+        <div>
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/materializecss/materializecss-original.svg" style={imageStyle}/>
+
+            
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original-wordmark.svg" style={imageStyle}/>
+
+            
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original-wordmark.svg" style={imageStyle}/>
+          
+
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" style={imageStyle}/>
+          
+            
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg" style={imageStyle}/>
+
+            
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg" style={imageStyle}/>
+
+            
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bash/bash-original.svg" style={imageStyle}/>
+          
+            
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/canva/canva-original.svg" style={imageStyle}/>
+
+            
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg" style={imageStyle}/>
+          
+
+            
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original-wordmark.svg" style={imageStyle}/>
+
+            
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/gitlab/gitlab-original-wordmark.svg" style={imageStyle}/>
+          
+            
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/graphql/graphql-plain-wordmark.svg" style={imageStyle}/>
+
+            
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/handlebars/handlebars-original-wordmark.svg" style={imageStyle}/>
+
+            
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/insomnia/insomnia-plain-wordmark.svg" style={imageStyle}/>
+
+            
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" style={imageStyle}/>
+
+            
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jest/jest-plain.svg" style={imageStyle}/>
+
+            
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jquery/jquery-original-wordmark.svg" style={imageStyle}/>
+
+            
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/json/json-original.svg" style={imageStyle}/>
+
+            
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original-wordmark.svg" style={imageStyle}/>
+
+            
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongoose/mongoose-original-wordmark.svg" style={imageStyle}/>
+
+            
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/netlify/netlify-original-wordmark.svg" style={imageStyle}/>
+
+            
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg" style={imageStyle}/>
+
+            
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/npm/npm-original-wordmark.svg" style={imageStyle}/>
+
+            
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/photoshop/photoshop-original.svg" style={imageStyle}/>
+
+            
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original-wordmark.svg" style={imageStyle}/>
+
+            
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original-wordmark.svg" style={imageStyle}/>
+
+            
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sequelize/sequelize-original-wordmark.svg" style={imageStyle}/>
+
+            
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-plain-wordmark.svg" style={imageStyle}/>
+
+            
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original-wordmark.svg" style={imageStyle}/>
+
+            
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/webpack/webpack-original-wordmark.svg" style={imageStyle}/>
+
+
+        </div>
       </div>
     );
   }
