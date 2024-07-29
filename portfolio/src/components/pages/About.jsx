@@ -1,7 +1,6 @@
 
-import React from 'react';
 import profilePic from '../../assets/profpic.png';
-import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 const styles = {
     titleStyle: {
