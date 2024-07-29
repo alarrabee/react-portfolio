@@ -1,6 +1,4 @@
-
 import profilePic from '../../assets/profpic.png';
-
 
 const styles = {
     titleStyle: {

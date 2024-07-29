@@ -24,13 +24,13 @@ const styles = {
     marginBottom: '100px',
   },
   portfolioItem: {
-    flex: '1 1 calc(33.333% - 40px)', // 3 items per row with gap consideration
+    flex: '1 1 calc(33.333% - 40px)', 
     boxSizing: 'border-box',
     textAlign: 'center',
     position: 'relative',
   },
   portfolioImage: {
-    width: 'auto', // Ensure images take full width of container
+    width: 'auto', 
     height: '150px',
     borderRadius: '8px',
   },
@@ -39,7 +39,7 @@ const styles = {
     fontSize: '1rem',
     color: '#333',
     display: 'block',
-    textDecoration: 'none', // Remove underline
+    textDecoration: 'none', 
   },
   titleContainer: {
     marginTop: '10px',
