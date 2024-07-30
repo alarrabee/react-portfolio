@@ -1,4 +1,3 @@
-
 const styles = {
     footerStyle: {
       position: 'fixed',

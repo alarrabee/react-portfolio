@@ -1,9 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-// Bringing in the required imports from 'react-router-dom' to set up application routing behavior
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-
-
 
 import App from './App.jsx'
 import About from './components/pages/About.jsx'
@@ -12,7 +9,6 @@ import ErrorPage from './components/pages/Error.jsx'
 import Portfolio from './components/pages/Portfolio.jsx'
 import Resume from './components/pages/Resume.jsx'
 
-//bootstrap
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
