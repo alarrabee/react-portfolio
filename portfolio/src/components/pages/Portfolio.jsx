@@ -5,6 +5,7 @@ import image4 from '../../assets/image4.png';
 import image5 from '../../assets/image5.png';
 import image6 from '../../assets/image6.png';
 
+//images and links for each project
 const portfolioItems = [
   { id: 1, image: image1, imageLink: 'https://github.com/alarrabee/bird-finder', title1: 'Chirp Finder', link1: 'https://alarrabee.github.io/bird-finder/', title2: 'GitHub', link2: 'https://github.com/alarrabee/bird-finder' },
   { id: 2, image: image2, imageLink: 'https://github.com/benjamin-parks/Project-2-Animal-Adoption-App', title1: 'Paws & Claws Adoption', link1: 'https://project-2-animal-adoption-app.onrender.com/', title2: 'GitHub', link2: 'https://github.com/benjamin-parks/Project-2-Animal-Adoption-App' },

@@ -1,6 +1,7 @@
 
 import resumePDF from '../../../public/alarrabeeResume2024.pdf';
 
+//icons used to represent skills
 const items = [
   { id: 1, src: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/materializecss/materializecss-original.svg' },
   { id: 2, src: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original-wordmark.svg' },
@@ -60,6 +61,7 @@ export default function Resume() {
     <div>
       <div style={styles.titleStyle}>
         <h1>Resume</h1>
+        {/* downloadable resume */}
         <a
           href={resumePDF}
           download="alarrabee-resume.pdf"

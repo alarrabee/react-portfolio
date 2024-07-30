@@ -1,6 +1,6 @@
 import { useState } from 'react';
-
 import { validateEmail } from '../../utils/helpers';
+
 
 const styles = {
     errorMsg: {
@@ -8,7 +8,7 @@ const styles = {
     },
 };
 
-
+//contact form
 function Contact() {
   const [senderName, setSenderName] = useState('');
   const [email, setEmail] = useState('');
