@@ -40,6 +40,7 @@ const styles = {
     marginBottom: '30px',
     marginTop: '30px',
     textAlign: 'center',
+    color: '#b30089'
   },
   containerStyle: {
     display: 'flex',
@@ -54,6 +55,9 @@ const styles = {
     width: 'auto',
     borderRadius: '8px', 
   },
+  button: {
+    backgroundColor: '#FD96A9',
+  }
 };
 
 export default function Resume() {
@@ -65,7 +69,7 @@ export default function Resume() {
         <a
           href={resumePDF}
           download="alarrabee-resume.pdf"
-          className="btn btn-primary"
+          className="btn" style={styles.button}
         >
           Download PDF
         </a>

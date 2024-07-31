@@ -19,7 +19,9 @@ const styles = {
     },
     text: {
         marginLeft: '100px',
-        marginRight: '100px', 
+        marginRight: '100px',
+        color: '#b30089',
+        fontSize: '20px'
     },
 };
 
