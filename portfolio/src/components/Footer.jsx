@@ -3,7 +3,7 @@ const styles = {
       position: 'fixed',
       bottom: 0,
       width: '100%', 
-      backgroundColor: '#343a40',
+      backgroundColor: '#b30089',
       color: '#ffffff', 
       textAlign: 'center',
       padding: '5px', 
@@ -12,9 +12,10 @@ const styles = {
       display: 'flex', 
       justifyContent: 'space-between', 
       alignItems: 'center',
+      fontSize: '20px'
     },
     linkStyle: {
-      color: '#ffffff',
+      color: '#FD96A9',
       margin: '0 10px', 
       textDecoration: 'none',
       transition: 'color 0.3s ease', 
@@ -27,6 +28,7 @@ const styles = {
     },
     rightSection: {
         marginTop: '10px',
+        color: '#FD96A9',
       },
   };
   

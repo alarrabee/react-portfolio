@@ -6,6 +6,13 @@ const styles = {
     errorMsg: {
         color: 'red',
     },
+    textColor: {
+        color: '#b30089'
+    },
+    button: {
+        backgroundColor: '#FD96A9',
+        color: 'black'
+      }
 };
 
 //contact form
@@ -48,7 +55,7 @@ function Contact() {
 
 return (
     <div className="container text-center mt-5">
-      <h1 className="mb-4">Send a Message!</h1>
+      <h1 className="mb-4" style={styles.textColor}>Send a Message!</h1>
       <form className="form" onSubmit={handleFormSubmit}>
         <div className="form-group mb-3">
           <input
@@ -80,7 +87,7 @@ return (
             placeholder="Your message here"
           />
         </div>
-        <button type="submit" className="btn btn-primary">Send</button>
+        <button type="submit" className="btn btn-primary" style={styles.button}>Send</button>
       </form>
       {errorMessage && (
         <div className="mt-3">
