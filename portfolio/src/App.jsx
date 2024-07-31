@@ -1,11 +1,11 @@
 import { Outlet } from 'react-router-dom'
-import NavTabs from './components/NavTabs'
+import Header from './components/Header'
 import Footer from './components/Footer'
 
 function App () {
     return (
         <>
-            <NavTabs/>
+            <Header />
             <div className="px-5">
             <Outlet />
             </div>
